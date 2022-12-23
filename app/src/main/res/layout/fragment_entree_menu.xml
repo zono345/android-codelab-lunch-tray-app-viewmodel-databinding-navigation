@@ -60,7 +60,7 @@
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["cauliflower"].name}'
                     android:onClick='@{() -> viewModel.setEntree("cauliflower")}'
-                    android:checked='@{viewModel.entree.equals("cauliflower")}'
+                    android:checked='@{viewModel.entree.name.equals(viewModel.menuItems["cauliflower"].name)}'
                     tools:text="Entree 1" />
 
                 <TextView
@@ -92,7 +92,7 @@
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["chili"].name}'
                     android:onClick='@{() -> viewModel.setEntree("chili")}'
-                    android:checked='@{viewModel.entree.equals("chili")}'
+                    android:checked='@{viewModel.entree.name.equals(viewModel.menuItems["chili"].name)}'
                     tools:text="Entree 2" />
 
                 <TextView
@@ -124,7 +124,7 @@
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["pasta"].name}'
                     android:onClick='@{() -> viewModel.setEntree("pasta")}'
-                    android:checked='@{viewModel.entree.equals("pasta")}'
+                    android:checked='@{viewModel.entree.name.equals(viewModel.menuItems["pasta"].name)}'
                     tools:text="Entree 3" />
 
                 <TextView
@@ -156,7 +156,7 @@
                     android:textAppearance="?attr/textAppearanceBody1"
                     android:text='@{viewModel.menuItems["skillet"].name}'
                     android:onClick='@{() -> viewModel.setEntree("skillet")}'
-                    android:checked='@{viewModel.entree.equals("skillet")}'
+                    android:checked='@{viewModel.entree.name.equals(viewModel.menuItems["skillet"].name)}'
                     tools:text="Entree 4" />
 
                 <TextView
