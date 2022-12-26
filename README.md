@@ -29,4 +29,4 @@ https://developer.android.com/codelabs/basic-android-kotlin-training-project-lun
   
   
 ### GIF ###  
-<img src="" width="1000">
+<img src="https://user-images.githubusercontent.com/88254716/209582374-6c52d520-e777-4a39-8f2e-36d202660edc.gif" width="100%">
