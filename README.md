@@ -25,7 +25,8 @@ https://developer.android.com/codelabs/basic-android-kotlin-training-project-lun
 アプリ画面
 ----  
 ### 静止画 ###
-<img src="" width="1000">
+<img src="https://user-images.githubusercontent.com/88254716/209582211-d65eea93-28b3-4eba-a80f-fd7cc7419d9f.png" width="100%">
+  
   
 ### GIF ###  
 <img src="" width="1000">
