@@ -20,7 +20,6 @@
     tools:context=".ui.order.SideMenuFragment">
 
     <data>
-
         <variable
             name="viewModel"
             type="com.example.lunchtray.model.OrderViewModel" />
@@ -181,7 +180,7 @@
             <TextView
                 android:id="@+id/subtotal"
                 style="@style/Widget.LunchTray.TextView.Subtotal"
-                android:text='@{viewModel.subtotal}'
+                android:text='@{@string/subtotal(viewModel.subtotal)}'
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
                 tools:text="Subtotal $5.00" />

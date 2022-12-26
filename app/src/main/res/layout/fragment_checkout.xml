@@ -105,7 +105,7 @@
             <TextView
                 android:id="@+id/subtotal"
                 style="@style/Widget.LunchTray.TextView.Subtotal"
-                android:text='@{viewModel.subtotal}'
+                android:text='@{@string/subtotal(viewModel.subtotal)}'
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
                 tools:text="Subtotal: $10.00" />
@@ -114,7 +114,7 @@
                 android:id="@+id/tax"
                 style="@style/Widget.LunchTray.TextView.Subtotal"
                 android:layout_marginTop="0dp"
-                android:text='@{viewModel.tax}'
+                android:text='@{@string/tax(viewModel.tax)}'
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/subtotal"
                 tools:text="Tax: $0.73" />
@@ -123,7 +123,7 @@
                 android:id="@+id/total"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text='@{viewModel.total}'
+                android:text='@{@string/total(viewModel.total)}'
                 android:textAllCaps="true"
                 android:textAppearance="?attr/textAppearanceHeadline6"
                 app:layout_constraintEnd_toEndOf="parent"
