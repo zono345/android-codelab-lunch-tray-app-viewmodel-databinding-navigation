@@ -29,4 +29,11 @@ https://developer.android.com/codelabs/basic-android-kotlin-training-project-lun
   
   
 ### GIF ###  
+**アプリ**  
 <img src="https://user-images.githubusercontent.com/88254716/209582374-6c52d520-e777-4a39-8f2e-36d202660edc.gif" width="30%">
+
+**テスト: MenuContentTests**  
+<img src="https://user-images.githubusercontent.com/88254716/209583792-91ae9da2-e0fa-4c1b-8032-9a3ad2f76bf4.gif" width="100%">
+
+**テスト: OrderFunctionalityTests**  
+<img src="https://user-images.githubusercontent.com/88254716/209583794-4c694253-1884-4df3-853a-e045c0f4ee16.gif" width="100%">
